@@ -1,0 +1,75 @@
+div.container {
+width:1000;
+margin:25px;
+clear:both;
+}
+ul#list-nav {
+list-style:none; 
+margin:20px;
+padding:0;
+width:525px
+clear:both;
+}
+
+ul#list-nav li {
+display:inline
+}
+
+ul#list-nav li a {
+text-decoration:none;
+padding:5px 0;
+width:100px;
+background:#000000;
+color:#ffffff;
+float:left;
+text-align:center;
+border-left:1px solid #fff;
+
+}
+
+ul#list-nav li a:hover {
+background:#ffffff;
+color:#000000
+}
+ .bgimg{
+    background-image: url(http://i0.kym-cdn.com/photos/images/original/000/096/044/trollface.jpg?1296494117);
+    background-attachment: fixed;
+    }
+
+div#body
+{
+margin:20px;
+height:1000px;
+width:525px;
+text-align:center;
+border:2px solid #ffffff;
+}
+
+div#logo {
+float: left;
+background-image: url('http://i365.photobucket.com/albums/oo97/Ganning4/cooltext689627199.png');
+width: 400px;
+height: 100px;
+background-repeat: no-repeat;
+left: 35%;
+bottom: 70%;
+
+}
+
+div#box {
+margin: 0;
+padding: 0;
+width: 850px;
+outline: 4px solid red;
+color: #EF00EF;
+height: 500px;
+position: relative;
+float:left
+
+}
+
+#footer {
+clear: both;
+background: green;
+text-align: center;
+}
