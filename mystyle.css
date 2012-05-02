@@ -7,9 +7,9 @@ list-style:none;
 margin:20px;
 padding:0;
 width:545px;
-clear:both;
+float:right;
 }
-
+/*i think the bar on the right looks better*/
 ul#list-nav li {
 display:inline
 }
