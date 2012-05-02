@@ -1,7 +1,6 @@
 div.container {
-width:1000;
+width:960px;
 margin:25px;
-clear:both;
 }
 ul#list-nav {
 list-style:none; 
