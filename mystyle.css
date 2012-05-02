@@ -1,41 +1,75 @@
-b
-{
-
-background: rgb(135,224,253); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(135,224,253,1) 0%, rgba(83,203,241,1) 41%, rgba(5,171,224,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(135,224,253,1)), color-stop(41%,rgba(83,203,241,1)), color-stop(100%,rgba(5,171,224,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 41%,rgba(5,171,224,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 41%,rgba(5,171,224,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 41%,rgba(5,171,224,1) 100%); /* IE10+ */
-background: linear-gradient(top, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 41%,rgba(5,171,224,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
-
+div#container {
+width:1000;
+margin:25px;
+clear:both;
 }
-h1 
-{
-background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-background: linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ul#list-nav {
+list-style:none; 
+margin:20px;
+padding:0;
+width:525px
+clear:both;
+}
 
-color:blue;
-height:auto;
-padding:5px;
-} 
-#para1
-{
+ul#list-nav li {
+display:inline
+}
+
+ul#list-nav li a {
+text-decoration:none;
+padding:5px 0;
+width:100px;
+background:#000000;
+color:#ffffff;
+float:left;
 text-align:center;
-color:black;
-}
-.blank
-{
-color:black;
-}
-#content 
-{
-color:red;
+border-left:1px solid #fff;
+
 }
 
+ul#list-nav li a:hover {
+background:#ffffff;
+color:#000000
+}
+ .bgimg{
+    background-image: url(http://i0.kym-cdn.com/photos/images/original/000/096/044/trollface.jpg?1296494117);
+    background-attachment: fixed;
+    }
+
+div#body
+{
+margin:20px;
+height:1000px;
+width:525px;
+text-align:center;
+border:2px solid #ffffff;
+}
+
+div#logo {
+float: left;
+background-image: url('http://i365.photobucket.com/albums/oo97/Ganning4/cooltext689627199.png');
+width: 400px;
+height: 100px;
+background-repeat: no-repeat;
+left: 35%;
+bottom: 70%;
+
+}
+
+div#box {
+margin: 0;
+padding: 0;
+width: 850px;
+outline: 4px solid red;
+color: #EF00EF;
+height: 500px;
+position: relative;
+float:left
+
+}
+
+#footer {
+clear: both;
+background: green;
+text-align: center;
+}
