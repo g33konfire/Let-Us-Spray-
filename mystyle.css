@@ -42,7 +42,7 @@ color:#000000
 div#body
 {
 margin:20px;
-height:600px;
+height:1000px;
 width:525px;
 text-align:center;
 border:2px solid #ffffff;
@@ -60,12 +60,14 @@ bottom: 70%;
 }
 
 div#box {
-margin: 0;
-padding: 0;
+margin-left: 10%;
+margin-right: 10%;
+padding: 15px;
 width: 850px;
 outline: 1px gray;
 color: white;
 height: 500px;
+text-align: left;
 position: relative;
 float: left;
 background-color: black;
