@@ -9,7 +9,6 @@ padding:0;
 width:545px;
 float:right;
 }
-/*i think the bar on the right looks better*/
 ul#list-nav li {
 display:inline
 }
@@ -43,7 +42,7 @@ color:#000000
 div#body
 {
 margin:20px;
-height:1000px;
+height:600px;
 width:525px;
 text-align:center;
 border:2px solid #ffffff;
