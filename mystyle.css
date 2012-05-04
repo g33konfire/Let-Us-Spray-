@@ -1,7 +1,10 @@
-div.container {
-width:960px;
-margin:25px;
-/*figure out how to align the bottom of the nav bar with the bottom of the logo*/
+div.container /*fix the right border*/ {
+height:100%;
+width:100%;
+margin-left: 300px;
+border-left: 5px solid gray;
+border-right: 5px solid gray;
+margin-right: 300px;
 }
 ul#list-nav {
 list-style:none; 
@@ -10,7 +13,6 @@ padding:0;
 width:545px;
 float:right;
 }
-/*i think the bar on the right looks better*/
 ul#list-nav li {
 display:inline
 }
@@ -23,8 +25,8 @@ background:#000000;
 color:#ffffff;
 float:left;
 text-align:center;
-border-left:1px solid #fff;
-
+border-left:1px solid gray;
+border-right:1px solid gray;
 }
 
 ul#list-nav li a:hover {
@@ -32,14 +34,19 @@ background:#ffffff;
 color:#000000
 }
  .bgimg{
-    background-image: url(http://i0.kym-cdn.com/photos/images/original/000/096/044/trollface.jpg?1296494117);
+    background-image: url(http://us.123rf.com/400wm/400/400/jameschipper/jameschipper1102/jameschipper110200018/8864117-under-construction-background.jpg);
     background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     }
 
 div#body
 {
 margin:20px;
-height:1000px;
+height:100px;
 width:525px;
 text-align:center;
 border:2px solid #ffffff;
@@ -57,23 +64,26 @@ bottom: 70%;
 }
 
 div#box {
-margin: 10px;
-padding: 10px;
-width: 850px;
-outline: 4px solid red;
-color: #EF00EF;
+padding: 15px;
+width: 500px;
+outline: 1px gray;
+color: white;
 height: 500px;
-position: relative;
-float:left;
-top:10px;
-left:175px;
-
+text-align: left;
+float: left;
+left: 120px;
+margin-bottom: 25px;
+background-color: black;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+opacity:0.9;
+  filter:alpha(opacity=90); /* For IE8 and earlier */
 }
 
 #footer {
-clear:left;
-background: green;
+clear: left;
+background: whitesmoke;
 text-align: center;
-margin:10px;
 }
-
