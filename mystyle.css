@@ -1,6 +1,10 @@
-div.container {
-width:960px;
-margin:25px;
+div.container /*fix the right border*/ {
+height:100%;
+width:100%;
+margin-left: 300px;
+border-left: 5px solid gray;
+border-right: 5px solid gray;
+margin-right: 300px;
 }
 ul#list-nav {
 list-style:none; 
@@ -66,8 +70,9 @@ outline: 1px gray;
 color: white;
 height: 500px;
 text-align: left;
-position: relative;
 float: left;
+left: 120px;
+margin-bottom: 25px;
 background-color: black;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -75,7 +80,6 @@ border-top-right-radius: 20px;
 border-top-left-radius: 20px;
 opacity:0.9;
   filter:alpha(opacity=90); /* For IE8 and earlier */
-
 }
 
 #footer {
