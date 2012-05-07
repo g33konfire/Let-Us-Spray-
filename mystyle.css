@@ -1,10 +1,9 @@
 div.container /*fix the right border*/ {
 height:100%;
-width:100%;
+width:715px;
 margin-left: 300px;
 border-left: 5px solid gray;
 border-right: 5px solid gray;
-margin-right: 300px;
 }
 ul#list-nav {
 list-style:none; 
@@ -83,8 +82,8 @@ opacity:0.9;
 }
 
 #footer {
-clear: left;
-background: whitesmoke;
+clear: both;
+background:darkgray;
 text-align: center;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
