@@ -20,16 +20,34 @@ ul#list-nav li a {
 text-decoration:none;
 padding:5px 0;
 width:100px;
-background:#000000;
+background: #cedce7; /* Old browsers */
+background: -moz-linear-gradient(top, #cedce7 0%, #596a72 0%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedce7), color-stop(0%,#596a72)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cedce7 0%,#596a72 0%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cedce7 0%,#596a72 0%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cedce7 0%,#596a72 0%); /* IE10+ */
+background: linear-gradient(top, #cedce7 0%,#596a72 0%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+
 color:#ffffff;
 float:left;
 text-align:center;
 border-left:1px solid gray;
-border-right:1px solid gray;
+border-right:1px solid gray; /* i was in a hurry to change the nav bar, i couldn't qute fix the right side in the amount of time i had to work on it this weekend. I changed the hover color to accomodate the background color. */
+-webkit-border-top-left-radius:6px;-webkit-border-bottom-left-radius:6px;-moz-border-radius-topleft:6px;-moz-border-radius-bottomleft:6px;border-top-left-radius:6px;border-bottom-left-radius:6px;
+border-bottom:
 }
 
 ul#list-nav li a:hover {
-background:#ffffff;
+background: #cedce7; /* Old browsers */
+background: -moz-linear-gradient(top, #cedce7 0%, #596a72 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedce7), color-stop(100%,#596a72)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cedce7 0%,#596a72 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cedce7 0%,#596a72 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cedce7 0%,#596a72 100%); /* IE10+ */
+background: linear-gradient(top, #cedce7 0%,#596a72 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+
 color:#000000
 }
  .bgimg{
