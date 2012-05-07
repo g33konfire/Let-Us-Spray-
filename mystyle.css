@@ -33,7 +33,7 @@ background:#ffffff;
 color:#000000
 }
  .bgimg{
-    background-image: url(http://us.123rf.com/400wm/400/400/jameschipper/jameschipper1102/jameschipper110200018/8864117-under-construction-background.jpg);
+    background-image: url(http://www.tellercanyon.com/under-construction-icon.jpg);
     background-attachment: fixed;
     position: relative;
     width: 100%;
@@ -65,14 +65,13 @@ bottom: 70%;
 div#box {
 padding: 15px;
 width: 500px;
-outline: 1px gray;
-color: white;
+outline: 1px black;
+color: black;
 height: 500px;
 text-align: left;
 float: left;
 left: 120px;
 margin-bottom: 25px;
-background-color: black;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 border-top-right-radius: 20px;
