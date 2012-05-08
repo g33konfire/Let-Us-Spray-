@@ -51,7 +51,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 color:#000000
 }
  .bgimg{
-    background-image: url(/home/g33konfire/Let-Us-Spray-/images/wood.jpg);
+    background-image: url(images/wood.jpg);
     background-attachment: fixed;
     position: relative;
     width: 100%;
