@@ -5,18 +5,18 @@ margin-left: 300px;
 border-left: 5px solid gray;
 border-right: 5px solid gray;
 }
-ul#list-nav {
+#list-nav {
 list-style:none; 
 margin:20px;
 padding:0;
 width:545px;
 float:right;
 }
-ul#list-nav li {
+#list-nav li {
 display:inline
 }
 
-ul#list-nav li a {
+#list-nav li a {
 text-decoration:none;
 padding:5px 0;
 width:100px;
@@ -34,8 +34,7 @@ float:left;
 text-align:center;
 border-left:1px solid gray;
 border-right:1px solid gray; /* i was in a hurry to change the nav bar, i couldn't qute fix the right side in the amount of time i had to work on it this weekend. I changed the hover color to accomodate the background color. */
--webkit-border-top-left-radius:6px;-webkit-border-bottom-left-radius:6px;-moz-border-radius-topleft:6px;-moz-border-radius-bottomleft:6px;border-top-left-radius:6px;border-bottom-left-radius:6px;
-border-bottom:
+-webkit-border-top-left-radius:6px;-webkit-border-bottom-left-radius:6px;-webkit-border-top-right-radius:6px;-webkit-border-top-right-radius:6px;-moz-border-radius-topleft:6px;-moz-border-radius-bottomleft:6px;-moz-border-radius-topright:6px;-moz-border-radius-bottomright:6px;border-top-left-radius:6px;border-bottom-left-radius:6px;border-top-right-radius:6px;border-bottom-right-radius:6px;
 }
 
 ul#list-nav li a:hover {
@@ -106,6 +105,7 @@ border-top-right-radius: 20px;
 border-top-left-radius: 20px;
 left:25px;
 right:25px;
+margin-top: 5px;
 }
 
 
@@ -114,4 +114,5 @@ right:25px;
 	background-color: #fcfeff;
 	padding: 1em;
 	border: 1px solid #ddd;
+	margin-bottom: 5px;
 }
