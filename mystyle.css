@@ -10,7 +10,8 @@ list-style:none;
 margin:20px;
 padding:0;
 width:545px;
-float:right;
+float:left;
+margin-top:25px;
 }
 #list-nav li {
 display:inline
