@@ -51,7 +51,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 color:#000000
 }
  .bgimg{
-    background-image: url(http://www.tellercanyon.com/under-construction-icon.jpg);
+    background-image: url(images/wood.jpg);
     background-attachment: fixed;
     position: relative;
     width: 100%;
@@ -112,7 +112,11 @@ margin-top: 5px;
 
 .bobby-comments {
 	margin: 1em auto;
-	background-color: #fcfbff;
+<<<<<<< HEAD
+	background-color: #ff00ff;
+=======
+	background-color: #ff00ff;
+>>>>>>> 75ee111ea2c4d7d9dd455638af57d9a6d05bcd8f
 	padding: 1em;
 	border: 1px solid #ddd;
 }
