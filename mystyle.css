@@ -1,9 +1,15 @@
 div.container {
-height:100%;
-width:715px;
-margin-left: 300px;
+height: 100%;
+width:915px;
+margin-left: 200px;
 border-left: 5px solid gray;
 border-right: 5px solid gray;
+background-image: url(images/Linen-texture.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;/*adjust to whatever you think would look better */
 }
 #list-nav {
 list-style:none; 
@@ -97,27 +103,25 @@ border-top-right-radius: 20px;
 border-top-left-radius: 20px;
 }
 
-#footer {
+#footer {/*align the footer in the middle. I made it smaller because it kept stretching out the browser.*/
 clear: both;
+float: left;
 background:darkgray;
 text-align: center;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
-left:25px;
-right:25px;
+left-margin:125px;
 margin-top: 5px;
+width: 75%;
+position: center;
 }
 
 
 .bobby-comments {
 	margin: 1em auto;
-<<<<<<< HEAD
 	background-color: #ff00ff;
-=======
-	background-color: #ff00ff;
->>>>>>> 75ee111ea2c4d7d9dd455638af57d9a6d05bcd8f
 	padding: 1em;
 	border: 1px solid #ddd;
 }
