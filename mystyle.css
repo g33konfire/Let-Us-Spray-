@@ -302,10 +302,45 @@ border: 2px solid black;
 	padding: 1em;
 	border: 1px solid #ddd;
 }
+
+#letspray-logo {
+	width: 348px;
+	height: 103px;
+	background-color: #4a5266;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #dedcdf;
+	font-family: "Frutiger", "Univers", ""Helvetica Neue"", arial, helvetica, sans-serif;
+	overflow: hidden;
+	text-shadow: 0 -1px 2px rgba(0,0,0,.3);
+	}
+#letspray-logo .logo-top {	
+	height: 50px;
+	padding-left: 16px;
+	border-bottom: 2px solid #dedcdf;
+	line-height: 50px;
+	font-size: 36px;
+
+	}
+#letspray-logo span {
+	color: #5d96b8;	
+	font-size: 20px;
+	padding: 9px 8px 20px;
+	}
+.soft-wash {
+	display: inline-block;
+	width: 38%;
+	text-align: right;
+	border-right: 2px solid #dedcdf;
+	}
+.scripture {
+	text-transform: uppercase;
+	}
 #footer-nav li {
 display:inline;
 }
 
 #footer-nav li a {
 text-decoration: none;
-
+}
