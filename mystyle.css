@@ -255,21 +255,10 @@ color:#000000
   
     }
 
-div#logo {
-float: left;
-background-image: url('images/New-logo.png');
-width: 672px;
-height: 183px;
-background-repeat: no-repeat;
-left: 35%;
-bottom: 70%;
-border-radius: 4px;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-}
+
 
 div#box {
-padding: 15px;/*fix this so that it stays within .container .*/
+padding: 15px;/*fix this so that it stays within .container .*/ /*temporary fix of setting overflow:auto; but still need to fix all the way*/
 width: 80%;
 outline: 1px black;
 color: black;
@@ -283,16 +272,19 @@ border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 border-top-right-radius: 20px;
 border-top-left-radius: 20px;
+overflow: auto;
 }
 
-#footer {/*align the footer in the middle. I made it smaller because it kept stretching out the browser.*/
+#footer {
 clear: both;
 background:darkgray;
 text-align: center;
-border-radius: 20px;
+border-radius: 10px;
 width: 915px;
+height: 25px;
 margin: 2px auto;
 border: 2px solid black;
+
 }
 
 
@@ -304,7 +296,6 @@ border: 2px solid black;
 	padding: 1em;
 	border: 1px solid #ddd;
 }
-
 #letspray-logo {
 	width: 348px;
 	height: 103px;
