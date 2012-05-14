@@ -198,6 +198,7 @@ background-position: center center;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;/*adjust to whatever you think would look better */
+padding: 10px;
 }
 #list-nav {
 list-style:none; 
@@ -310,11 +311,14 @@ border: 2px solid black;
 			}
 
 div#box {
-width: 100px;
-height: 100px;
-border: 1px dashed grey;
-padding: 2px;
-margin: 10px;
+height: 425px;
+border: 1px solid grey;
+padding: 5px;
+positoin: relative;
+text-align: left;
+margin: 0px, auto;
+margin-top: 80px;
+border-radius: 15px;
 }
 
 #footer-nav li {
