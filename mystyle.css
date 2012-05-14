@@ -188,7 +188,7 @@ img {
 
 div.container {
 height: 100%;
-width:915px;
+width: 1000px;
 margin: 0px auto;;
 border-left: 5px solid gray;
 border-right: 5px solid gray;
@@ -201,11 +201,12 @@ border-radius: 10px;/*adjust to whatever you think would look better */
 }
 #list-nav {
 list-style:none; 
-margin:20px;
+margin: 0;
 padding:0;
 width:545px;
 float:left;
-margin-top:25px;
+left: 400px;
+margin-top:0;
 }
 #list-nav li {
 display:inline
@@ -292,7 +293,11 @@ border: 2px solid black;
 
 .bobby-comments {
 	margin: 1em auto;
+<<<<<<< HEAD
 	background-color: #a1b9b2;
+=======
+	background-color: #ffffff;
+>>>>>>> 46bc8f2c115c160118bd1130a30be6d665366624
 	padding: 1em;
 	border: 1px solid #ddd;
 }
@@ -337,3 +342,4 @@ display:inline;
 #footer-nav li a {
 text-decoration: none;
 }
+
