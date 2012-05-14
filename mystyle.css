@@ -198,6 +198,7 @@ background-position: center center;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;/*adjust to whatever you think would look better */
+padding: 10px;
 }
 #list-nav {
 list-style:none; 
@@ -293,11 +294,7 @@ border: 2px solid black;
 
 .bobby-comments {
 	margin: 1em auto;
-<<<<<<< HEAD
 	background-color: #a1b9b2;
-=======
-	background-color: #ffffff;
->>>>>>> 46bc8f2c115c160118bd1130a30be6d665366624
 	padding: 1em;
 	border: 1px solid #ddd;
 }
@@ -334,6 +331,17 @@ border: 2px solid black;
 		.scripture {
 			text-transform: uppercase;
 			}
+
+div#box {
+height: 425px;
+border: 1px solid grey;
+padding: 5px;
+positoin: relative;
+text-align: left;
+margin: 0px, auto;
+margin-top: 80px;
+border-radius: 15px;
+}
 
 #footer-nav li {
 display:inline;
