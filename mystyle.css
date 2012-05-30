@@ -249,14 +249,11 @@ color:#5990B4;
 
 #footer {
 clear: both;
-background:darkgray;
 text-align: center;
 border-radius: 10px;
 width: inherit;
 height: 25px;
 margin-top: 15px;
-border: 2px solid black;
-
 }
 
 .iframes {
@@ -271,11 +268,15 @@ moz-border-radius: 5px;
 webkit-border-radius: 5px;
 text-align: center;
 padding: 25px;
+
+#footer a {
+padding: 40px;
+text-decoration: none;
+color: #ffffff;
 }
 
-
-
-.bobby-comments {
+.bobb-comments{
+margin: 2px auto;
 	margin: 1em auto;
 	background-color: #a1b9b2;
 	padding: 1em;
@@ -325,11 +326,4 @@ margin-top: 80px;
 border-radius: 15px;
 }
 
-#footer-nav li {
-display:inline;
-}
-
-#footer-nav li a {
-text-decoration: none;
-}
 
