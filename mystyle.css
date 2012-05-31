@@ -260,11 +260,10 @@ color: #000000;
 text-decoration: none;
 }
 .iframes {
-left: 25px;
-top: 250px;
-position: absolute;
+bottom: 825px;
+float: right;
+position: relative;
 border: 2px solid gray;
-height: 150px;
 background: #373643;
 border-radius: 5px;
 -moz-border-radius: 5px;
