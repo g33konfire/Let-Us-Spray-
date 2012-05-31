@@ -252,13 +252,16 @@ clear: both;
 text-align: center;
 border-radius: 10px;
 width: inherit;
-height: 25px;
 margin-top: 15px;
 }
 
+#footer a {
+color: #000000;
+text-decoration: none;
+}
 .iframes {
-top: 250px;
 left: 25px;
+top: 250px;
 position: absolute;
 border: 2px solid gray;
 height: 150px;
@@ -270,10 +273,16 @@ text-align: center;
 padding: 25px;
 }
 
-#footer a {
-padding: 40px;
+ul#footer-nav {
+list-style-type: none;
 text-decoration: none;
-color: #ffffff;
+text-align: center;
+display: inline;
+word-spacing: 30px;
+}
+
+ul#footer-nav li {
+display: inline;
 }
 
 .bobb-comments{
